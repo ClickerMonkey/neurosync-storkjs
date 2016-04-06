@@ -1,18 +1,18 @@
 {
-  "name": "neurosync-storkjs",
+  "name": "rekord-storkjs",
   "version": "1.0.0",
-  "homepage": "https://github.com/ClickerMonkey/neurosync-storkjs",
+  "homepage": "https://github.com/Rekord/rekord-storkjs",
   "authors": [
     "Philip Diffenderfer <pdiffenderfer@gmail.com>"
   ],
-  "description": "A neurosync binding to storkjs - implementing Neuro.store",
-  "main": "build/neurosync-storkjs.js",
+  "description": "A rekord binding to storkjs - implementing Rekord.store",
+  "main": "build/rekord-storkjs.js",
   "keywords": [
     "javascript",
     "orm",
     "offline",
     "realtime",
-    "neurosync",
+    "rekord",
     "storkjs"
   ],
   "license": "MIT",

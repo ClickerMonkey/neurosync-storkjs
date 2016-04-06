@@ -1,6 +1,6 @@
 
-// StorkJS Neuro.store implementation.
-Neuro.store = function(database)
+// StorkJS Rekord.store implementation.
+Rekord.store = function(database)
 {
   return new Stork( database );
 };

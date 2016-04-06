@@ -1,5 +1,5 @@
-# neurosync-storkjs
+# rekord-storkjs
 
-A neurosync binding to storkjs - implementing Neuro.store.
+A rekord binding to storkjs - implementing Rekord.store.
 
-The easiest way to install is by using bower via `bower install neurosync-storkjs`.
+The easiest way to install is by using bower via `bower install rekord-storkjs`.

@@ -1,6 +1,7 @@
 
 // StorkJS Rekord.store implementation.
-Rekord.store = function(database)
+Rekord.setStore(function(database)
 {
   return new Stork( database );
-};
+
+}, true );

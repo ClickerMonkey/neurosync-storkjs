@@ -1,6 +1,6 @@
 {
   "name": "rekord-storkjs",
-  "version": "1.0.1",
+  "version": "1.4.0",
   "homepage": "https://github.com/Rekord/rekord-storkjs",
   "authors": [
     "Philip Diffenderfer <pdiffenderfer@gmail.com>"
@@ -25,6 +25,6 @@
   ],
   "dependencies": {
     "storkjs": "^1.0.0",
-    "rekord": "^1.2.0"
+    "rekord": "~1.4.0"
   }
 }

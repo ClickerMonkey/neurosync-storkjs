@@ -1,9 +1,10 @@
 {
   "name": "rekord-storkjs",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "description": "A rekord binding to storkjs - implementing Rekord.store",
   "author": "Philip Diffenderfer",
   "license": "MIT",
+  "main": "build/rekord-storkjs.js",
   "repository": {
     "type": "git",
     "url": "git://github.com/Rekord/rekord-storkjs.git"

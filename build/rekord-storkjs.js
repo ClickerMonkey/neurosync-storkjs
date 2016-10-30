@@ -1,4 +1,4 @@
-/* rekord-storkjs 1.4.1 - A rekord binding to storkjs - implementing Rekord.store by Philip Diffenderfer */
+/* rekord-storkjs 1.4.2 - A rekord binding to storkjs - implementing Rekord.store by Philip Diffenderfer */
 (function(global, Rekord, Stork, undefined)
 {
   function StoreFactory(database)

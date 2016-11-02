@@ -1,11 +1,11 @@
-/* rekord-storkjs 1.4.3 - A rekord binding to storkjs - implementing Rekord.store by Philip Diffenderfer */
+/* rekord-storkjs 1.4.4 - A rekord binding to storkjs - implementing Rekord.store by Philip Diffenderfer */
 // UMD (Universal Module Definition)
 (function (root, factory)
 {
   if (typeof define === 'function' && define.amd) // jshint ignore:line
   {
     // AMD. Register as an anonymous module.
-    define(['Rekord', 'Stork'], function(Rekord, Stork) { // jshint ignore:line
+    define(['rekord', 'storkjs'], function(Rekord, Stork) { // jshint ignore:line
       return factory(root, Rekord, Stork);
     });
   }
@@ -14,7 +14,7 @@
     // Node. Does not work with strict CommonJS, but
     // only CommonJS-like environments that support module.exports,
     // like Node.
-    module.exports = factory(global, require('Rekord'), require('Stork'));  // jshint ignore:line
+    module.exports = factory(global, require('rekord'), require('storkjs'));  // jshint ignore:line
   }
   else
   {

@@ -1,4 +1,4 @@
-/* rekord-storkjs 1.4.4 - A rekord binding to storkjs - implementing Rekord.store by Philip Diffenderfer */
+/* rekord-storkjs 1.5.0 - A rekord binding to storkjs - implementing Rekord.store by Philip Diffenderfer */
 // UMD (Universal Module Definition)
 (function (root, factory)
 {

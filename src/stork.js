@@ -28,6 +28,7 @@
     return new Stork( database );
   }
 
+  Rekord.Stores.Stork = StoreFactory;
   Rekord.setStore( StoreFactory, true );
 
   return Rekord;

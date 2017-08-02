@@ -1,4 +1,4 @@
-/* rekord-storkjs 1.5.0 - A rekord binding to storkjs - implementing Rekord.store by Philip Diffenderfer */
+/* rekord-storkjs 1.5.6 - A rekord binding to storkjs - implementing Rekord.store by Philip Diffenderfer */
 // UMD (Universal Module Definition)
 (function (root, factory)
 {
@@ -29,6 +29,7 @@
     return new Stork( database );
   }
 
+  Rekord.Stores.Stork = StoreFactory;
   Rekord.setStore( StoreFactory, true );
 
   return Rekord;
